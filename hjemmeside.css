@@ -11,5 +11,42 @@
 #fa {
     margin: auto;
     text-align: center;
+<<<<<<< Updated upstream
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+=======
+}
+
+.fotogrid {
+    margin-top: 60px;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:'1 2 3';
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .forsidebilleder {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .container p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mushlampblue {
+    grid-area: 1;
+  }
+
+  .mushlamprust {
+    grid-area: 2;
+  }
+
+  .mushlampbeige{
+    grid-area: 3;
+  }
+>>>>>>> Stashed changes
