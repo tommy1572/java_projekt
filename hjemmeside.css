@@ -1,7 +1,3 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 #header {
     background-color: #ede2cd;
     width: 100%;
@@ -9,23 +5,26 @@
     padding: 2px;
     text-align: center;
     font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #fa {
     margin: auto;
     text-align: center;
+<<<<<<< Updated upstream
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+=======
 }
 
 .fotogrid {
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px,400px));
-  gap: 30px;
-  text-align: center;
-}
+    margin-top: 60px;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:'1 2 3';
+    gap: 30px;
+    text-align: center;
+  }
   
   .forsidebilleder {
     height: 400px;
@@ -50,3 +49,4 @@
   .mushlampbeige{
     grid-area: 3;
   }
+>>>>>>> Stashed changes
