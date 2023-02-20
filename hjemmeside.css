@@ -17,13 +17,15 @@
 }
 
 .fotogrid {
-    margin-top: 60px;
-    width: 100vw;
-    display: grid;
-    grid-template-areas:'1 2 3';
-    gap: 30px;
-    text-align: center;
-  }
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px,400px));
+  gap: 30px;
+  text-align: center;
+}
   
   .forsidebilleder {
     height: 400px;
