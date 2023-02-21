@@ -15,6 +15,23 @@
     font-size: 35px;
 }
 
+.fa-bag-shopping {
+  padding-left: 1360px;
+  font-size: 25px;
+}
+
+.fa-magnifying-glass {
+  padding-left: 1310px;
+  font-size: 25px;
+}
+
+.line {
+  background-color: #ede2cd;
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+}
+
 .newin {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
