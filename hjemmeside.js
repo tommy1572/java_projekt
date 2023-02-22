@@ -17,3 +17,7 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000); // skift ved 4 sek
 }
+
+function changeColor(element, color) {
+  element.style.backgroundColor = color; 
+}
