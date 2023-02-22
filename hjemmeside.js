@@ -1,3 +1,4 @@
+// slideshow
 let slideIndex = 0;
 showSlides();
 
@@ -21,3 +22,4 @@ function showSlides() {
 function changeColor(element, color) {
   element.style.backgroundColor = color; 
 }
+// slideshow slut
