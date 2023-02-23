@@ -8,11 +8,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#ship {
+    padding-left: 55px;
+}
+
 #fa {
     margin: auto;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .fa-bag-shopping {
@@ -351,6 +357,7 @@ input {
   border-radius: 10px;
   padding: 10px;
   text-decoration: none;
+  margin-left: 30px;
 
 }
 
