@@ -1,3 +1,33 @@
+// pop-up starter
+const popOutButton = document.getElementById("button"); 
+const bg_container = document.querySelector("bgpopContainer");
+const exitPopUp = document.getElementById("bg_container");
+
+popOutButton.addEventListener("click", popOutNow);
+document.addEventListener("mouseout", exitPage);
+
+function popOutNow(e) {
+    e.preventDefault();
+    document.querySelector(".bgpopContainer").style.display = "flex";
+}
+
+const cancelPop = document.getElementById("close");
+
+cancelPop.addEventListener("click", cancelPopOut)
+
+function cancelPopOut(e) {
+    e.preventDefault();
+    document.querySelector(".bgpopContainer").style.display = "none";
+}
+
+function exitPage(event) {
+    if (event.clientY < 50) {
+        document.removeEventListener("mouseout", exitPage);
+        exitPopUp.style.display = "flex";
+    }
+}
+// pop-up slut
+
 // slideshow
 let slideShow = 0;
 kørSlide();
