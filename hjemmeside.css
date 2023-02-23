@@ -75,7 +75,7 @@ ul{
   left: 0;
   background-color: whitesmoke;
   width: 25%;
-  height: 65vh;
+  height: 100vh;
   padding: 25px;
   transform: translateX(-500px);
   transition: 0.5s;
