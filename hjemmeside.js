@@ -91,3 +91,11 @@ location.replace('indexDe.html')
 }
 document.getElementById("langSelect").selectedIndex = 1;
 //Sprog selector slut
+
+//array over punkter i find os
+let baba = ["ABOUT", "CHRISTMAS DELIVERY 2022", "CUSTOMER SERVICE", "TERMS, CONDITIONS, DELIVERY AND RETURNS", "PRIVATE POLICY", "CONTACT"];
+
+//for loop som printer hele arrayet
+for(let i=0; i < baba.length; i++) {
+    document.getElementById("garner").innerHTML += baba[i] + "<br>";
+}
