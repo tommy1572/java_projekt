@@ -1,3 +1,20 @@
+// Menu
+let menu = ['NEW IN', 'GIFTS', 'CATEGORIES', 'SALE', 'BRANDS', 'ART IS FOR ALL', 'JOURNAL', 'GIFT CARD', 'CONTACT'];
+let menuList = document.createElement('ul');
+for (let i = 0; i < menu.length; i++) {
+  let menuItem = document.createElement('li');
+  menuItem.innerHTML = menu[i];
+  menuList.appendChild(menuItem);
+}
+document.body.appendChild(menuList);
+
+let logo = document.querySelector('.container');
+
+logo.addEventListener('click', function() {
+    menuList.classList.toggle("showmenu");
+});
+// Menu Slut
+
 // pop-up starter
 const popOutButton = document.getElementById("button"); 
 const bg_container = document.querySelector("bgpopContainer");
