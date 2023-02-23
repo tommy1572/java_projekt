@@ -21,6 +21,26 @@
     padding-bottom: 1.5rem;
 }
 
+select {
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 6%;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: inherit;
+  line-height: inherit;
+  border-radius: 10px;
+}
+
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+
 .fa-bag-shopping {
   padding-left: 1360px;
   font-size: 25px;
